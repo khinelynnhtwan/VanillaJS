@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <!--header-->
+    <div class="header bg-gray-100 xl:hidden">
+      <div class="flex justify-between px-5 py-4 overflow-hidden">
+        <img src="./img/saungpokki final png 1.svg" alt="" />
+        <div class="flex gap-4">
+          <div class="relative">
+            <img src="./img/Ellipse 156.svg" alt="" />
+            <img
+              class="absolute bottom-0 -right-0.5"
+              src="./img/profile_dropdown.svg"
+              alt=""
+            />
+          </div>
+          <img src="./img/menu.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!--body-->  
+    <section class="flex bg-[#D0DFEC]">
+      <!--nav_bar-->
+      <div class="bg-white hidden w-72 xl:block xl:sticky left-0 p-5">
+          <div class="flex gap-x-3">
+            <img src="./img/Ellipse img.svg" alt="">
+            <div class="">
+              <span class="text-xl font-medium">DemoStudent</span>
+              <p>Student</p>
+            </div>
+          </div>
+      </div>
+      <!--nav_bar-->
+      <section class="w-full min-h-screen">
+        <div class="bg-[#D0DFEC] flex justify-between pt-4 px-5">
+          <div class="text-2xl font-medium">Student Dashboard</div>
+          <div class="hidden md:flex gap-3">
+            <img src="./img/home.svg" alt="">
+            <img src="./img/noti-theme.svg" alt="">
+          </div>
+        </div>
+
+        <section class="flex-grow p-5 grid xl:grid-cols-12 gap-5 overflow-hidden">
+          <div class="grid md:col-span-2 xl:col-span-8 gap-5">
+            <div class="bg-white p-4 text-center rounded-2xl md:col-span-2 xl:col-span-8">
+              <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-4">
+                <div
+                  class="bg-[#E9F0F6] flex flex-col items-center py-8 justify-center rounded-2xl"
+                >
+                  <h1 class="text-lg text-gray-600">Courses</h1>
+                  <h1 class="text-4xl font-medium">1</h1>
+                </div>
+                
+                <div
+                  class="bg-[#E9F0F6] flex flex-col items-center py-8 justify-center rounded-2xl"
+                >
+                  <h1 class="text-lg text-gray-600">Courses</h1>
+                  <h1 class="text-4xl font-medium">2</h1>
+                </div>
+
+                <div
+                  class="bg-[#E9F0F6] flex flex-col items-center py-8 justify-center rounded-2xl"
+                >
+                  <h1 class="text-lg text-gray-600">Courses</h1>
+                  <h1 class="text-4xl font-medium">3</h1>
+                </div>
+              
+                <div
+                  class="bg-[#E9F0F6] flex flex-col items-center py-8 justify-center rounded-2xl"
+                >
+                  <h1 class="text-lg text-gray-600">Courses</h1>
+                  <h1 class="text-4xl font-medium">4</h1>
+                </div>
+
+                
+              </div>
+            </div>
+
+            <div class="bg-white flex rounded-2xl md:col-span-1 xl:col-span-4">
+              <div class="w-full p-5">
+                <div class="flex justify-between pb-4">
+                  <div class="text-2xl font-medium content-center">Grades</div>
+                  <div class="dropdown dropdown-bottom">
+                    <div tabindex="0" role="button" class="btn rounded-full">
+                      Young Learner
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-1 shadow"
+                    >
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 2</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div class="content-center">
+                    <div class="pb-2">
+                      <p>Assignment</p>
+                      <progress
+                        class="progress w-36"
+                        value="20"
+                        max="100"
+                      ></progress>
+                    </div>
+
+                    <div class="">
+                      <p>Quiz</p>
+                      <progress
+                        class="progress w-36"
+                        value="72"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </div>
+                  <div
+                    class="size-32 radial-progress bg-slate-200 text-slate-content border-gray-200 border-4"
+                    style="--value: 64"
+                    role="progressbar"
+                  >
+                    70%
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white flex rounded-2xl md:col-span-1 xl:col-span-4">
+              <div class="w-[100%] p-5">
+                <div class="flex justify-between pb-4">
+                  <div class="text-2xl font-medium content-center">Timetable</div>
+                  <div class="dropdown dropdown-bottom">
+                    <div tabindex="0" role="button" class="btn rounded-full">
+                      Young Learner
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-1 shadow"
+                    >
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 2</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div class="text-xl font-medium text-blue-500">
+                    <h1>Monday</h1>
+                    <h1>Wednesday</h1>
+                    <h1>Friday</h1>
+                  </div>
+
+                  <div
+                    class="text-xl flex flex-col text-center text-red-500 font-medium"
+                  >
+                    <p>7:00PM</p>
+                    <p class="">to</p>
+                    <p>8:00PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white flex rounded-2xl md:col-span-2 xl:col-span-8">
+              <div class="w-[100%] p-5">
+                <div class="flex justify-between pb-4">
+                  <div class="text-2xl font-medium content-center">My Courses</div>
+
+                  <div class="flex gap-x-2">
+                    <div class="dropdown dropdown-bottom">
+                      <div tabindex="0" role="button" class="btn rounded-full">
+                        Face-to-Face
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-1 shadow"
+                      >
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                      </ul>
+                    </div>
+
+                    <img src="./img/new tab.svg" alt="" class="" />
+                  </div>
+                </div>
+
+                <div class="bg-[#E9F0F6] rounded-lg p-5">
+                  <div class="flex gap-x-5 pb-4 items-center">
+                    <div class="">
+                      <img src="./img/co_image.svg" alt="" />
+                    </div>
+
+                    <div class="">
+                      <p class="text-xl font-medium">Young learner</p>
+                      <p class="text-lg text-gray-500">One-to-Many</p>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-between">
+                    <div class="flex relative -space-x-3">
+                      <img src="./img/Ellipse img.svg" alt="" class="size-10" />
+                      <img src="./img/Ellipse img.svg" alt="" class="size-10" />
+                      <img src="./img/Ellipse img.svg" alt="" class="size-10" />
+                      <img src="./img/Ellipse img.svg" alt="" class="size-10" />
+                    </div>
+
+                    <div class="flex">
+                      <span class="content-center">Module One . Slot 1</span>
+                    </div>
+                  </div>
+
+                  <div class="w-[100%]">
+                    <progress
+                      class="progress w-[100%]"
+                      value="72"
+                      max="100"
+                    ></progress>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid md:col-span-2 xl:col-span-4 gap-5">
+            <div class="bg-white flex rounded-2xl md:col-span-1 xl:col-span-4">
+              <div class="w-[100%] p-5">
+                <div class="flex justify-between pb-6">
+                  <div class="text-2xl font-medium content-center">Town Hall</div>
+                  <img src="./img/new tab.svg" alt="" class="" />
+                </div>
+
+                <div class="flex relative gap-x-2 bg-[#E9F0F6] p-5 rounded-lg mb-3">
+                  <div class="flex gap-x-2">
+                    <div
+                      class="w-[70px] h-[25px] text-center bg-[#F4F8FB] absolute rounded-full -top-3 right-8"
+                    >
+                      New
+                    </div>
+                    <img src="./img/Ellipse img.svg" alt="" />
+                    <span class="content-center font-medium text-lg"
+                      >Tr. John Sat</span
+                    >
+                  </div>
+                </div>
+                <div class="flex gap-x-2 bg-[#E9F0F6] p-5 rounded-lg">
+                  <img src="./img/Ellipse img.svg" alt="" />
+                  <h1 class="content-center font-medium text-lg">Tr. John Sat</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white flex rounded-2xl md:col-span-1 xl:col-span-4">
+              <div class="w-[100%] p-5">
+                <div class="flex justify-between pb-4">
+                  <div class="text-2xl font-medium content-center">Classwork</div>
+                  <img src="./img/new tab.svg" alt="" class="" />
+                </div>
+
+                <div class="grid grid-cols-3 grid-rows-2 gap-3">
+                  <div class="border-2 border-[#e6eff7] row-span-2 text-center p-6 rounded-xl">
+                    <h1 class="text-4xl font-medium">6</h1>
+                    <h1 class="text-lg text-gray-500">Weeks</h1>
+                  </div>
+
+                  <div
+                    class="border-2 border-[#e6eff7] col-span-2 flex justify-between items-center rounded-xl p-3"
+                  >
+                    <h1 class="text-lg">Assignment</h1>
+                    <button
+                      class="bg-[#F4F8FB] border border-gray-300 py-1 px-4 rounded-full"
+                    >
+                      Start
+                    </button>
+                  </div>
+
+                  <div
+                    class="border-2 border-[#e6eff7] col-span-2 flex justify-between items-center rounded-xl p-3"
+                  >
+                    <h1 class="text-lg">Quiz</h1>
+                    <button
+                      class="bg-[#F4F8FB] border border-gray-300 py-1 px-4 rounded-full"
+                    >
+                      Start
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
